@@ -7,6 +7,5 @@ def square_array(array)
     new_element = array[element] ** 2
     new_array << new_element
     element += 1
-    binding.pry
   end
 end
